@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import MainContent from './components/MainContent'
-import Sidebar from './components/sidebar'
+import MainContent from './components/MainContent.jsx'
+import Sidebar from './components/sidebar.jsx'
 
 import './styles/components/app.sass'
 

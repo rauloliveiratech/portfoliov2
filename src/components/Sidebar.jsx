@@ -1,4 +1,3 @@
-import React from 'react';
 import Avatar from '../img/Eu.jpg'
 import '../styles/components/sidebar.sass'
 import Curriculo from '../docs/CurriculoRaul.pdf'
