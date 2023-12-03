@@ -12,6 +12,7 @@ import {
 import { FiFigma } from "react-icons/fi";
 
 import '../styles/components/technologiescontainer.sass'
+import '../styles/responsive.sass'
 
 const technologies = [
     { id: "html", name: "HTML5", icon: <DiHtml5 /> },

@@ -1,6 +1,7 @@
 import {AiOutlineMail, AiFillEnvironment} from 'react-icons/ai'
 
 import '../styles/components/informationcontainer.sass'
+import '../styles/responsive.sass'
 
 const InformationContainer = () => {
     return (

@@ -1,0 +1,28 @@
+@use 'mixins'
+
+@media screen and (max-width: 768px)
+    #portfolio
+        h1
+            font-size: 4rem
+            span
+                display: none
+
+    #information
+        .info-card
+            p
+                font-size: .7rem
+
+    .technology-card
+        display: flex
+        flex-direction: column
+        h3
+            display: none
+
+        svg
+            font-size: 4rem
+            padding: .5rem
+
+    #main-content
+        h2
+            &:after
+                content: none
