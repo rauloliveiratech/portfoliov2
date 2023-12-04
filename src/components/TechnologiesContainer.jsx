@@ -6,9 +6,12 @@ import {
     DiMysql,
     DiReact,
     DiSass,
-    DiPhotoshop
+    DiPhotoshop,
+    DiPython,
+    DiGit
 } from 'React-icons/di'
 
+import { SiJest } from "react-icons/si"
 import { FiFigma } from "react-icons/fi";
 
 import '../styles/components/technologiescontainer.sass'
@@ -24,6 +27,9 @@ const technologies = [
     { id: "sass", name: "Sass", icon: <DiSass /> },
     { id: "figma", name: "Figma", icon: <FiFigma /> },
     { id: "photoshop", name: "Photoshop", icon: <DiPhotoshop /> },
+    { id: "python", name: "Python", icon: <DiPython /> },
+    { id: "jest", name: "Jest", icon: <SiJest /> },
+    { id: "git", name: "Git", icon: <DiGit /> },
   ];
   
   const TechnologiesContainer = () => {
